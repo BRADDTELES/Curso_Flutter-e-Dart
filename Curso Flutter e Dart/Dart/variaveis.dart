@@ -19,7 +19,9 @@ void main() {
   int numero = 5;
   bool status = true;
   dynamic qualquer = "blablabla"; /* aceita String, Inteiros, nuḿeros quebrados e Boolean */
-  
+  print(numero);
+  print(status);
+  print(qualquer);
   // print(qualquer + 5); /* erro no terminal */
 
   dynamic fisrtNamePerson = "Danillo"; /* Formato Camelcase */
