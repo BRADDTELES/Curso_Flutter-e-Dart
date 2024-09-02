@@ -5,7 +5,7 @@ void main() {
   // printMelhorCanal(inscritos: 5000, canal: canal);
   // printMelhorCanal(inscritos: 5000, canal: canal, curtidas: 5000);
   printMelhorCanal('qualquer', inscritos: 5000, curtidas: 5000);
-  // print(canal);
+  print(canal);
 }
 
 void printMelhorCanal(String canal, { double? curtidas, required int inscritos}) {
