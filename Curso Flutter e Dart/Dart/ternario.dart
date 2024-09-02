@@ -4,7 +4,7 @@ void main() {
   int idade = 18;
   dynamic resp = "";
 
-  // resp = idade >= 18 ? "Pode passar" : "sinto muito";
+  resp = idade >= 18 ? "Pode passar" : "sinto muito";
 
   print(resp);
 }
