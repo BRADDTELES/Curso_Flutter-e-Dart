@@ -1,0 +1,22 @@
+void main() {
+  Constantes consti = Constantes();
+  // print(consti.apiKey);
+  
+  /* ASSIM */
+  var apiKey = Constantes.apiKey;
+  print(apiKey);
+  /* OU */
+  print(Constantes.database);
+  /* OU */
+  print(consti.host); // host não pode ser estático na classe Constantes
+}
+
+class Constantes {
+  static String apiKey = "senha123";
+  static String database = "loja";
+  String host = "localhost";
+
+  Constantes() {
+    print("criei o objeto");
+  }
+}
