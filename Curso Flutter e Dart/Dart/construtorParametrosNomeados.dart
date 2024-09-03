@@ -1,6 +1,6 @@
 void main() {
   
-  final carro = new Carro(
+  const carro = Carro(
     cor: 'vermelho', 
     tamanho: 4.15, 
     modelo: 'Gol'
@@ -20,7 +20,7 @@ class Carro {
   final double tamanho;
   final String modelo;
 
-  Carro({ 
+  const Carro({ 
     required this.cor, 
     required this.tamanho, 
     required this.modelo 
