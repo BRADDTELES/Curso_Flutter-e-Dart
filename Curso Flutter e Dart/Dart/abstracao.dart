@@ -1,24 +1,27 @@
 void main() {
   /* Abstração */
-  Animal gato = new Gato();
-  gato.som();
-  gato = Cachorro(); // gato pode receber o método Cachorro
-  gato.som();
-
+  Animal gato = Gato();
   Animal cachorro = Cachorro();
+  
+  gato.som();
   cachorro.som();
+
+  (gato as Gato).isBigode(); // Neste 1º método estou 'forçando' a instanciação (não recomendado)
+  cachorro.cheiroPotente(); // 2º metodo: fazenda a definição do método na classe Animal
+
 }
 
 abstract class Animal {
   void som();
-  void isBigode();
-  void cheiroPotente();
+
+  // void isBigode(){}  // forma correta
+  void cheiroPotente(){}
 }
 
 class Gato extends Animal{
   @override
   void som() {
-    print("MIAU!");
+    print("Gato faz MIAU!");
   }
 
   void isBigode() {
@@ -30,7 +33,7 @@ class Gato extends Animal{
 class Cachorro extends Animal{
   @override
   void som() {
-    print("AUAU!!!");
+    print("Cachorro faz AUAU!!!");
   }
 
   void cheiroPotente() {
