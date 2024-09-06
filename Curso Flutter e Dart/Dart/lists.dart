@@ -1,6 +1,6 @@
 void main() {
   List<String> listNomes = ["João", "Maria", "Bia"];
-  // print(listNomes[0]);
+  print(listNomes[0]);
   List<Estudante> listEstudantes = [
     Estudante("Ewerton", 20),
     Estudante("Maria", 25),
@@ -23,7 +23,7 @@ void main() {
   print(listEstudantes);
   listEstudantes.removeAt(1);
   print(listEstudantes);
-  
+
 }
 
 class Estudante {
