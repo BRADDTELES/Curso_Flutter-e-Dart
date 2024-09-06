@@ -18,7 +18,7 @@ void main() {
 
 
   final listFiltrada = listEstudantes.where((estudante) => estudante.idade <= 20).toList();
-  // print(listFiltrada);
+  print(listFiltrada);
   listEstudantes.add(Estudante("Bia", 18));
   print(listEstudantes);
   listEstudantes.removeAt(1);
