@@ -45,13 +45,3 @@ void main() {
     });
   }).toList();
 }
-
-class Estudante {
-  String nome;
-  int idade;
-
-  Estudante(this.nome, this.idade);
-
-  @override
-  String toString() => "$nome";
-}
