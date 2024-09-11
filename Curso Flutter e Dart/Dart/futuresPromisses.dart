@@ -4,7 +4,7 @@ void main() async {
     print("estamos dentro de nossa função do futuro");
     return 15;
   }).then((val) => print("retorno: $val"));
-
+  print(myFuture);
   // minhaFuncao().then((val) => print(val));
   final res = await minhaFuncao();
   print(res);
