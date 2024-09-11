@@ -10,7 +10,9 @@ void main() {
   stream.forEach(print);
 }
 
-// Stream<int> contaInscricao() async* {
+/* MAIS INFORMAÇÕES SOBRE 'Stream' no canal do WebDutras */
+
+// Stream<int> contaInscrito() async* {
 //   for (int i = 1; i <= 10; i++) {
 //     yield i;
 //     await Future.delayed(const Duration(seconds: 1));
