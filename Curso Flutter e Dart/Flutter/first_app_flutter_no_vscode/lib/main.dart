@@ -1,3 +1,4 @@
+import 'package:first_app_flutter_no_vscode/pessoa.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter feito por nós',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Página Inicial'),
     );
   }
 }
@@ -65,6 +66,8 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
+      final pessoa = Pessoa("Ewerton", 20);
+      print(pessoa.nome);
       _counter++;
     });
   }
