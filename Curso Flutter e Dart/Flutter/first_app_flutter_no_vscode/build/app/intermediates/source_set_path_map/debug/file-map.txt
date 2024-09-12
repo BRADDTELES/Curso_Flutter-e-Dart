@@ -1,0 +1,27 @@
+com.example.first_app_flutter_no_vscode.app-jetified-core-ktx-1.13.1-0 /home/danillo/.gradle/caches/8.9/transforms/0839a1890dc0ac3f40342da9333099ba/transformed/jetified-core-ktx-1.13.1/res
+com.example.first_app_flutter_no_vscode.app-core-runtime-2.2.0-1 /home/danillo/.gradle/caches/8.9/transforms/1269c1fa696d5725faa636c9fc55f8e1/transformed/core-runtime-2.2.0/res
+com.example.first_app_flutter_no_vscode.app-jetified-annotation-experimental-1.4.0-2 /home/danillo/.gradle/caches/8.9/transforms/1f496d2d99c7e1c5afce3a1d82f61743/transformed/jetified-annotation-experimental-1.4.0/res
+com.example.first_app_flutter_no_vscode.app-lifecycle-livedata-core-2.7.0-3 /home/danillo/.gradle/caches/8.9/transforms/23a13f3ed8df3a1d5bfde4a55e8b6a66/transformed/lifecycle-livedata-core-2.7.0/res
+com.example.first_app_flutter_no_vscode.app-jetified-window-1.2.0-4 /home/danillo/.gradle/caches/8.9/transforms/2c0ba2094c9347b44169ea5648c68564/transformed/jetified-window-1.2.0/res
+com.example.first_app_flutter_no_vscode.app-jetified-lifecycle-livedata-core-ktx-2.7.0-5 /home/danillo/.gradle/caches/8.9/transforms/2c4f5bbd0cb71cfa24d8fb4d881f3b38/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/res
+com.example.first_app_flutter_no_vscode.app-lifecycle-viewmodel-2.7.0-6 /home/danillo/.gradle/caches/8.9/transforms/2eba460b4d5b438312b91a2806900212/transformed/lifecycle-viewmodel-2.7.0/res
+com.example.first_app_flutter_no_vscode.app-fragment-1.7.1-7 /home/danillo/.gradle/caches/8.9/transforms/3d8a751b52c207999b947b3a82e34f2c/transformed/fragment-1.7.1/res
+com.example.first_app_flutter_no_vscode.app-jetified-lifecycle-viewmodel-savedstate-2.7.0-8 /home/danillo/.gradle/caches/8.9/transforms/481c1cacd48bed126ba602b110f33178/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/res
+com.example.first_app_flutter_no_vscode.app-jetified-tracing-1.2.0-9 /home/danillo/.gradle/caches/8.9/transforms/a118eb5ce69f33e9af889ef12928d67f/transformed/jetified-tracing-1.2.0/res
+com.example.first_app_flutter_no_vscode.app-jetified-lifecycle-process-2.7.0-10 /home/danillo/.gradle/caches/8.9/transforms/ac9c146471aef157a79b6408a3545c6e/transformed/jetified-lifecycle-process-2.7.0/res
+com.example.first_app_flutter_no_vscode.app-jetified-startup-runtime-1.1.1-11 /home/danillo/.gradle/caches/8.9/transforms/ad5313afe563a69329e87913970fc10c/transformed/jetified-startup-runtime-1.1.1/res
+com.example.first_app_flutter_no_vscode.app-jetified-activity-1.8.1-12 /home/danillo/.gradle/caches/8.9/transforms/b4b4c175b537b94561c87fb07e5d1566/transformed/jetified-activity-1.8.1/res
+com.example.first_app_flutter_no_vscode.app-jetified-window-java-1.2.0-13 /home/danillo/.gradle/caches/8.9/transforms/c0eab0f3b719e2326b07fe52828ae50b/transformed/jetified-window-java-1.2.0/res
+com.example.first_app_flutter_no_vscode.app-lifecycle-runtime-2.7.0-14 /home/danillo/.gradle/caches/8.9/transforms/c1ad9d790cc7278ce6d38e073c70bbc6/transformed/lifecycle-runtime-2.7.0/res
+com.example.first_app_flutter_no_vscode.app-lifecycle-livedata-2.7.0-15 /home/danillo/.gradle/caches/8.9/transforms/e7b57a7b694bf366108c032615326e92/transformed/lifecycle-livedata-2.7.0/res
+com.example.first_app_flutter_no_vscode.app-jetified-profileinstaller-1.3.1-16 /home/danillo/.gradle/caches/8.9/transforms/e98ce98b480c4cb5d17318d2ce2732d0/transformed/jetified-profileinstaller-1.3.1/res
+com.example.first_app_flutter_no_vscode.app-jetified-core-1.0.0-17 /home/danillo/.gradle/caches/8.9/transforms/f1c5e152eb5311187d29732726d7a153/transformed/jetified-core-1.0.0/res
+com.example.first_app_flutter_no_vscode.app-core-1.13.1-18 /home/danillo/.gradle/caches/8.9/transforms/f94475d0ee9d4fd73fbdbfc57d660a71/transformed/core-1.13.1/res
+com.example.first_app_flutter_no_vscode.app-jetified-savedstate-1.2.1-19 /home/danillo/.gradle/caches/8.9/transforms/fec719805ad765f8507aff45d5251f39/transformed/jetified-savedstate-1.2.1/res
+com.example.first_app_flutter_no_vscode.app-debug-20 /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/android/app/src/debug/res
+com.example.first_app_flutter_no_vscode.app-main-21 /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/android/app/src/main/res
+com.example.first_app_flutter_no_vscode.app-pngs-22 /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/build/app/generated/res/pngs/debug
+com.example.first_app_flutter_no_vscode.app-resValues-23 /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/build/app/generated/res/resValues/debug
+com.example.first_app_flutter_no_vscode.app-packageDebugResources-24 /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/build/app/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.first_app_flutter_no_vscode.app-packageDebugResources-25 /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/build/app/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.first_app_flutter_no_vscode.app-merged_res-26 /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/build/app/intermediates/merged_res/debug

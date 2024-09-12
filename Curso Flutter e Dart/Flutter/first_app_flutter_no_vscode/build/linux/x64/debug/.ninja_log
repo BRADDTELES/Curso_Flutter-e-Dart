@@ -1,0 +1,29 @@
+# ninja log v5
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/libflutter_linux_gtk.so	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_basic_message_channel.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_binary_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_binary_messenger.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_dart_project.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_engine.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_json_message_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_json_method_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_message_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_method_call.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_method_channel.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_method_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_method_response.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_plugin_registrar.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_plugin_registry.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_standard_message_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_standard_method_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_string_codec.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_value.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/fl_view.h	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/linux/flutter/ephemeral/flutter_linux/flutter_linux.h	3e96c569cb3a6a08
+1	6281	0	flutter/_phony_	3e96c569cb3a6a08
+1	6281	0	/home/danillo/Documentos/Curso_Flutter-e-Dart/Curso Flutter e Dart/Flutter/first_app_flutter_no_vscode/build/linux/x64/debug/flutter/_phony_	3e96c569cb3a6a08
+6282	6809	1726177714719924072	CMakeFiles/first_app_flutter_no_vscode.dir/flutter/generated_plugin_registrant.cc.o	cd886bdf80fd92a6
+6282	6815	1726177714725924109	CMakeFiles/first_app_flutter_no_vscode.dir/main.cc.o	a47f4ab68b17c437
+6282	6873	1726177714784924473	CMakeFiles/first_app_flutter_no_vscode.dir/my_application.cc.o	7d1df51720cf438d
+6874	6963	1726177714875925035	intermediates_do_not_run/first_app_flutter_no_vscode	6551dcd4bf3388bf
+6963	7094	0	CMakeFiles/install.util	64c344297ee2d583
