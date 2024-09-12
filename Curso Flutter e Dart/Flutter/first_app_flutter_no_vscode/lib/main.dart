@@ -1,15 +1,4 @@
 import 'package:first_app_flutter_no_vscode/pessoa.dart';
-<<<<<<< Tabnine <<<<<<<
-// Create a new file named pessoa.dart in the same directory as your main.dart file//+
-// Then, paste the following code into pessoa.dart//+
-//+
-class Pessoa {//+
-  final String nome;//+
-  final int idade;//+
-//+
-  Pessoa(this.nome, this.idade);//+
-}//+
->>>>>>> Tabnine >>>>>>>// {"conversationId":"f8bbe9e8-08ff-4ecf-bdc4-c8eba356068c","source":"instruct"}
 import 'package:flutter/material.dart';
 
 void main() {
