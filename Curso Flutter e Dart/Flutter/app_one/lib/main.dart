@@ -6,3 +6,5 @@ void main() {
       textDirection:
           TextDirection.ltr)); // rumApp é o ponto de partida do Flutter
 }
+
+class myApp extends W {}
