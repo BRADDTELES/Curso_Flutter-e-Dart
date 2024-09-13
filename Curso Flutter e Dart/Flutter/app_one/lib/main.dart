@@ -1,3 +1,4 @@
+import 'package:app_one/my_page_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,12 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-        home: Scaffold(
-      body: Center(
-          child: Text(
-        "Olá, Mundo!",
-        style: TextStyle(fontSize: 26),
-      )),
-    ));
+      home: MyPageApp()
+    );
   }
 }
