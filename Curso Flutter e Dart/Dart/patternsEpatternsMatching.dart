@@ -1,5 +1,3 @@
-import 'dart:async';
-
 void main() {
   // final list = [5, 4, 3, 2, 1];
   // final [a, b, ...c] = list;
