@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 
 void main() {
   /* o void main() é o ponto de partida do Dart */
-  runApp(Text(" texto aqui antes Olá, mundo",
-      textDirection:
-          TextDirection.ltr)); // rumApp é o ponto de partida do Flutter
+  runApp(const MyApp()); // rumApp é o ponto de partida do Flutter
 }
 
 /** Tipos de widget
@@ -12,11 +10,12 @@ void main() {
  * StatelessWidget <- widget sem estado
  * InheritedWidget
  */
-class myApp extends StatelessWidget {
-  const myApp({super.key});
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return const Text(" texto aqui antes Olá, mundo",
+        textDirection: TextDirection.ltr);
   }
 }
