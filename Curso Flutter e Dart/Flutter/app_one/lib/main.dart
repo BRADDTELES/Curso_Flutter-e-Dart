@@ -15,7 +15,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Text(" texto aqui antes Olá, mundo",
-        textDirection: TextDirection.ltr);
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Text(
+        "texto aqui antes Olá, mundo",
+      ),
+    );
   }
 }
