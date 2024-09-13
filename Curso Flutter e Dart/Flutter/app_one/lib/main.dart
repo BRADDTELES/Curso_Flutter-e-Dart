@@ -17,7 +17,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
         home: Scaffold(
-      body: Text("Olá, Mundo!"),
+      body: Center(
+          child: Text(
+        "Olá, Mundo!",
+        style: TextStyle(fontSize: 26),
+      )),
     ));
   }
 }
