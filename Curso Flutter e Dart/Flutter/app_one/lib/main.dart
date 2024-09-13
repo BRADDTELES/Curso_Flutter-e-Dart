@@ -1,4 +1,4 @@
-import 'package:app_one/pages/my_page_app.dart';
+import 'package:app_one/my_page_app.dart';
 import 'package:flutter/material.dart';
 
 void main() {

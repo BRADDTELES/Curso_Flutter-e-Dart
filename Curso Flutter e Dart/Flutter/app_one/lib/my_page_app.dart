@@ -8,7 +8,7 @@ class MyPageApp extends StatelessWidget {
     return const Scaffold(
       body: Center(
         child: Text(
-          "Olá, Mundo!!!",
+          "Olá Mundo!!!",
           style: TextStyle(fontSize: 26),
         ),
       ),
