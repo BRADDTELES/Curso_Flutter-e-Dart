@@ -1,0 +1,1 @@
+ /home/danillo/Documentos/Curso_Flutter-e-Dart/Curso\ Flutter\ e\ Dart/Flutter/first_app_flutter_no_vscode/.dart_tool/flutter_build/b34c9faf3288b94ebb65371927ce1bf4/native_assets.yaml: 
