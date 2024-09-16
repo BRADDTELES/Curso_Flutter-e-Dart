@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "832212547837",
+    "project_id": "second-web-evolui-54432",
+    "storage_bucket": "second-web-evolui-54432.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832212547837:android:2c92686ff7c3dc4288e694",
+        "android_client_info": {
+          "package_name": "br.com.webevolui.second"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYq9WZVxhlRyEtdcHQ_0yUPHtZ6TzfrWk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
