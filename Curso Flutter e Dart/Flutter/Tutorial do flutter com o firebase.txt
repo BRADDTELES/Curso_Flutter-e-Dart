@@ -30,3 +30,13 @@ void main() async {
 Dentro do build.grade que está na pasta android/app:
 minSdk = 19
 multiDexEnabled true
+
+
+
+### Configurando o CLI Firebase dentro do Projeto no Android Studio ###
+firebase login
+>> Após criado o Projeto dentro do Console no site do Firebase, faça no AndroidStudio:
+flutterfire configure
+>> Selecione o projeto recém criado no console do site:
+>> Escolha a plataforma:
+>> Dê o nome ao Id Apliccation exemplo "com.example.app":
