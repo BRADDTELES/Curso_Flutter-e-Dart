@@ -14,50 +14,52 @@ class LoginScreen extends StatelessWidget {
         color: Colors.blue,
         padding: const EdgeInsets.all(16),
         child: Center(
-          child: Column( // RenderFlex overflowed >CORREÇÃO> child: SingleChildScrollView(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(16),
-                ),
-                child: Column(
-                  children: [
-                    const FlutterLogo(size: 76),
-                    const SizedBox(
-                      height: 16,
-                    ),
-                    TextField(
-                      controller: _emailController,
-                      decoration: const InputDecoration(hintText: 'E-mail'),
-                    ),
-                    const SizedBox(height: 16),
-                    TextField(
-                      obscureText: true,
-                      controller: _senhaController,
-                      decoration: const InputDecoration(hintText: 'Senha'),
-                    ),
-                    const SizedBox(height: 16),
-                    ElevatedButton(onPressed: () {}, child: const Text('Entrar')),
-                    const SizedBox(height: 16),
-                    ElevatedButton(
-                      onPressed: () {},
-                      child: const Text('Entrar com google'),
-                    ),
-                    const SizedBox(height: 16),
-                    TextButton(
-                      onPressed: () {
-                        Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterScreen(),
-                        ));
-                      },
-                      child: const Text('Ainda não tem uma conta, crie uma conta'),
-                    ),
-                  ],
-                ),
-              )
-            ],
+          child: SingleChildScrollView(
+            child: Column( // RenderFlex overflowed >CORREÇÃO> child: SingleChildScrollView(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  child: Column(
+                    children: [
+                      const FlutterLogo(size: 76),
+                      const SizedBox(
+                        height: 16,
+                      ),
+                      TextField(
+                        controller: _emailController,
+                        decoration: const InputDecoration(hintText: 'E-mail'),
+                      ),
+                      const SizedBox(height: 16),
+                      TextField(
+                        obscureText: true,
+                        controller: _senhaController,
+                        decoration: const InputDecoration(hintText: 'Senha'),
+                      ),
+                      const SizedBox(height: 16),
+                      ElevatedButton(onPressed: () {}, child: const Text('Entrar')),
+                      const SizedBox(height: 16),
+                      ElevatedButton(
+                        onPressed: () {},
+                        child: const Text('Entrar com google'),
+                      ),
+                      const SizedBox(height: 16),
+                      TextButton(
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(builder: (context) => RegisterScreen(),
+                          ));
+                        },
+                        child: const Text('Ainda não tem uma conta, crie uma conta'),
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
           ),
         ),
       ),
