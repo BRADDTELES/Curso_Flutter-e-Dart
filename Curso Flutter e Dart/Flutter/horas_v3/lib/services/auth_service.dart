@@ -33,6 +33,12 @@ class AuthService {
       switch (e.code) {
         case 'email-already-in-use':
           return 'O email já está em uso';
+        case 'weak-password':
+          return 'A senha deve ter pelo menos 6 caracteres';
+        case 'network-request-failed':
+          return 'Falha na rede';
+        case 'channel-error':
+          return 'Informe um E-mail válido';
       }
       return e.code;
     }
