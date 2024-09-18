@@ -19,7 +19,7 @@ class RegisterScreen extends StatelessWidget {
         color: Colors.blue,
         padding: const EdgeInsets.all(16),
         child: Center(
-          child: Column(
+          child: Column( // RenderFlex overflowed >CORREÇÃO> child: SingleChildScrollView(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
