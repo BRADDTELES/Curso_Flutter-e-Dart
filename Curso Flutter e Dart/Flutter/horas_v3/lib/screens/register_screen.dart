@@ -59,7 +59,6 @@ class RegisterScreen extends StatelessWidget {
                       child: const Text('Cadastrar'),
                     ),
                     const SizedBox(height: 16),
-
                   ],
                   ),
               )

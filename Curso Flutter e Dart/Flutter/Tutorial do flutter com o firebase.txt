@@ -32,7 +32,6 @@ minSdk = 19
 multiDexEnabled true
 
 
-
 ### Configurando o CLI Firebase dentro do Projeto no Android Studio ###
 firebase login
 >> Após criado o Projeto dentro do Console no site do Firebase, faça no AndroidStudio:
