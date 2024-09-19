@@ -7,8 +7,7 @@ class Hour {
   Hour(
       {required this.id,
       required this.data,
-      required this.minutos,
-      required this.descricao});
+      required this.minutos});
 
   Hour.fromMap(Map<String, dynamic> map)
       : id = map['id'],

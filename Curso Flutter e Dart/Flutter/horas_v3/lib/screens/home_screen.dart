@@ -5,6 +5,7 @@ import 'package:horas_v3/components/menu.dart';
 import 'package:horas_v3/helpers/hour_helpers.dart';
 import 'package:horas_v3/models/hour.dart';
 import 'package:mask_text_input_formatter/mask_text_input_formatter.dart';
+import 'package:uuid/uuid.dart';
 
 class HomeScreen extends StatefulWidget {
   final User user;
@@ -32,7 +33,9 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Text('Horas V3'),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          showFormModal();
+        },
         child: const Icon(Icons.add),
       ),
       body: (listHours.isEmpty)
@@ -167,7 +170,27 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: 16,
                   ),
                   ElevatedButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Hour hour = Hour(
+                          id: const Uuid().v1(),
+                          data: dataController.text,
+                          minutos: HourHelper.hoursToMinutos(
+                              minutosController.text));
+                      if (descricaoController.text != "") {
+                        hour.descricao = descricaoController.text;
+                      }
+
+                      if (model != null) {
+                        hour.id = model.id;
+                      }
+
+                      firestore
+                          .collection(widget.user.uid)
+                          .doc(hour.id)
+                          .set(hour.toMap());
+                      refresh();
+                      Navigator.pop(context);
+                    },
                     child: Text(confirmationButton),
                   ),
                 ],
@@ -182,5 +205,10 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  void remove(Hour model) {}
+  void remove(Hour model) {
+    firestore.collection(widget.user.uid).doc(model.id).delete();
+    refresh();
+  }
+
+  void refresh() {}
 }
