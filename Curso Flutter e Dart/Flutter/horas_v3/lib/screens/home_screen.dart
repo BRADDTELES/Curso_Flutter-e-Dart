@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:horas_v3/components/menu.dart';
+import 'package:horas_v3/models/hour.dart';
 
 class HomeScreen extends StatefulWidget {
   final User user;
