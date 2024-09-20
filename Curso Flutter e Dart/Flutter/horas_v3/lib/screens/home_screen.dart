@@ -152,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 controller: descricaoController,
                 keyboardType: TextInputType.text,
                 decoration: const InputDecoration(
-                  hintText: 'Lembrete do que você fez',
+                  hintText: 'Lembrete e tarefas a fazer',
                   labelText: 'Descrição',
                 ),
               ),
