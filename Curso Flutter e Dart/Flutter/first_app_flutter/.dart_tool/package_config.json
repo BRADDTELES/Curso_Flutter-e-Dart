@@ -3,271 +3,163 @@
   "packages": [
     {
       "name": "async",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/async-2.11.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/async-2.11.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "boolean_selector",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/boolean_selector-2.1.1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "characters",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/characters-1.3.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/characters-1.3.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "clock",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/clock-1.1.1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "collection",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/collection-1.18.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/collection-1.18.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "cupertino_icons",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/cupertino_icons-1.0.8",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/cupertino_icons-1.0.8",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "fake_async",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/fake_async-1.3.1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/fake_async-1.3.1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "flutter",
-<<<<<<< HEAD
       "rootUri": "file:///usr/bin/flutter/packages/flutter",
-=======
-      "rootUri": "file:///C:/sdk/flutter/packages/flutter",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "flutter_lints",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/flutter_lints-4.0.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-4.0.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "flutter_test",
-<<<<<<< HEAD
       "rootUri": "file:///usr/bin/flutter/packages/flutter_test",
-=======
-      "rootUri": "file:///C:/sdk/flutter/packages/flutter_test",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
     {
       "name": "leak_tracker",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/leak_tracker-10.0.5",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker-10.0.5",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_flutter_testing",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.5",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_flutter_testing-3.0.5",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "leak_tracker_testing",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/leak_tracker_testing-3.0.1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "lints",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/lints-4.0.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/lints-4.0.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.1"
     },
     {
       "name": "matcher",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/matcher-0.12.16+1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/matcher-0.12.16+1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "material_color_utilities",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/material_color_utilities-0.11.1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/material_color_utilities-0.11.1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "meta",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/meta-1.15.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.15.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/path-1.9.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.9.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
     {
       "name": "sky_engine",
-<<<<<<< HEAD
       "rootUri": "file:///usr/bin/flutter/bin/cache/pkg/sky_engine",
-=======
-      "rootUri": "file:///C:/sdk/flutter/bin/cache/pkg/sky_engine",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "source_span",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/source_span-1.10.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stack_trace",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/stack_trace-1.11.1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/stack_trace-1.11.1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "stream_channel",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/stream_channel-2.1.2",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/stream_channel-2.1.2",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.19"
     },
     {
       "name": "string_scanner",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/string_scanner-1.2.0",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "term_glyph",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/term_glyph-1.2.1",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "test_api",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/test_api-0.7.2",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/test_api-0.7.2",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.2"
     },
     {
       "name": "vector_math",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "vm_service",
-<<<<<<< HEAD
       "rootUri": "file:///home/danillo/.pub-cache/hosted/pub.dev/vm_service-14.2.5",
-=======
-      "rootUri": "file:///C:/Users/bradd/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.5",
->>>>>>> refs/remotes/origin/main
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -278,19 +170,10 @@
       "languageVersion": "3.5"
     }
   ],
-<<<<<<< HEAD
-  "generated": "2024-09-12T21:47:52.231657Z",
+  "generated": "2024-09-20T02:21:48.517920Z",
   "generator": "pub",
   "generatorVersion": "3.5.3",
   "flutterRoot": "file:///usr/bin/flutter",
   "flutterVersion": "3.24.3",
   "pubCache": "file:///home/danillo/.pub-cache"
-=======
-  "generated": "2024-09-14T09:13:03.888649Z",
-  "generator": "pub",
-  "generatorVersion": "3.5.3",
-  "flutterRoot": "file:///C:/sdk/flutter",
-  "flutterVersion": "3.24.3",
-  "pubCache": "file:///C:/Users/bradd/AppData/Local/Pub/Cache"
->>>>>>> refs/remotes/origin/main
 }
