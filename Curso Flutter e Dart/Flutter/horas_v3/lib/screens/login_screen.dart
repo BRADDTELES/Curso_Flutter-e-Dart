@@ -8,6 +8,8 @@ class LoginScreen extends StatelessWidget {
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _senhaController = TextEditingController();
 
+  AuthService authService = AuthService();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -42,7 +44,15 @@ class LoginScreen extends StatelessWidget {
                         decoration: const InputDecoration(hintText: 'Senha'),
                       ),
                       const SizedBox(height: 16),
-                      ElevatedButton(onPressed: () {}, child: const Text('Entrar')),
+                      ElevatedButton(onPressed: () {
+                        authService.entrarUsuario(email: _emailController.text, senha: _senhaController.text).then((String? erro) {
+                          if (erro != null) {
+                            final snackBar = SnackBar(content: Text(erro),
+                              backgroundColor: Colors.red);
+                            ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                          }
+                        });
+                      }, child: const Text('Entrar')),
                       const SizedBox(height: 16),
                       ElevatedButton(
                         onPressed: () {},

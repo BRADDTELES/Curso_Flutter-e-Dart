@@ -10,7 +10,7 @@ import 'package:uuid/uuid.dart';
 class HomeScreen extends StatefulWidget {
   final User user;
 
-  const HomeScreen({super.key, required this.user});
+  HomeScreen({super.key, required this.user});
 
   @override
   State<HomeScreen> createState() => _HomeScreenState();
@@ -214,9 +214,10 @@ class _HomeScreenState extends State<HomeScreen> {
     refresh();
   }
 
-  void refresh() async {
+  Future<void> refresh()  async {
+    // double total = 0;
     List<Hour> temp = [];
-    
+
     QuerySnapshot<Map<String, dynamic>> snapshot = await firestore.collection(widget.user.uid).get();
 
     for (var doc in snapshot.docs) {
