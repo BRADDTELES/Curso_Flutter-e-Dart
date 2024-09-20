@@ -152,7 +152,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 controller: descricaoController,
                 keyboardType: TextInputType.text,
                 decoration: const InputDecoration(
-                  hintText: 'Lembrete e tarefas a fazer',
+                  hintText: 'Fazer tarefa ou adicionar Lembrete',
                   labelText: 'Descrição',
                 ),
               ),
@@ -216,8 +216,9 @@ class _HomeScreenState extends State<HomeScreen> {
 
   void refresh() async {
     List<Hour> temp = [];
-    
-    QuerySnapshot<Map<String, dynamic>> snapshot = await firestore.collection(widget.user.uid).get();
+
+    QuerySnapshot<Map<String, dynamic>> snapshot =
+        await firestore.collection(widget.user.uid).get();
 
     for (var doc in snapshot.docs) {
       temp.add(Hour.fromMap(doc.data()));
