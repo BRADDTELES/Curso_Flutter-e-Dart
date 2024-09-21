@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:horas_v3/screens/register_screen.dart';
 import 'package:horas_v3/services/auth_service.dart';
+import 'package:horas_v3/screens/reset_password_modal.dart';
 
 class LoginScreen extends StatelessWidget {
   LoginScreen({super.key});
@@ -59,9 +60,7 @@ class LoginScreen extends StatelessWidget {
                       }, child: const Text('Entrar')),
                       const SizedBox(height: 16),
                       ElevatedButton(
-                        onPressed: () {
-
-                        },
+                        onPressed: () {},
                         child: const Text('Entrar com google'),
                       ),
                       const SizedBox(height: 16),
@@ -72,6 +71,16 @@ class LoginScreen extends StatelessWidget {
                         },
                         child: const Text('Ainda não tem uma conta, crie uma conta'),
                       ),
+                      TextButton(
+                          onPressed: () {
+                            showDialog(
+                                context: context,
+                                builder: (BuildContext context) {
+                                  return PasswordresetModal();
+                                });
+                          },
+                          child: Text('Esqueceu sua senha?'),
+                      )
                     ],
                   ),
                 )
