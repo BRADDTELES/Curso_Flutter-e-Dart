@@ -12,12 +12,16 @@ class AuthService {
       switch (e.code) {
         case 'user-not-found':
           return 'Usuário não encontrado';
+        case 'invalid-password':
+          return 'Senha incorreta';
+        case 'invalid-credential':
+          return 'A senha deve ter pelo menos 6 caracteres';
         case 'wrong-password':
           return 'Senha incorreta';
         case 'weak-password':
           return 'A senha deve ter pelo menos 6 caracteres';
         case 'channel-error':
-          return 'Informe um E-mail válido';
+          return 'Informe um E-mail e senha válidos';
         case 'invalid-email':
           return 'Informe um E-mail válido';
         case 'network-request-failed':
