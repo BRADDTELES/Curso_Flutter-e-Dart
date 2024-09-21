@@ -72,15 +72,13 @@ class LoginScreen extends StatelessWidget {
                         child: const Text('Ainda não tem uma conta, crie uma conta'),
                       ),
                       TextButton(
-                        onPressed: () {
-                          showDialog(
-                              context: context,
-                              builder: (BuildContext context) {
-                                return const PasswordresetModal();
-                              });
-                        },
-                        child: const Text('Esqueceu sua senha?'),
-                      )
+                          onPressed: () {
+                            showDialog(context: context, builder: (BuildContext context) {
+                              return PasswordResetModal();
+                            });
+                          },
+                          child: Text("Esqueceu sua senha")
+                      ),
                     ],
                   ),
                 )
@@ -94,12 +92,14 @@ class LoginScreen extends StatelessWidget {
 
   Future<UserCredential> singinWithGoogle() async {
     final GoogleSignInAccount? googleUser = await GoogleSignIn().signIn();
-    final GoogleSignInAuthentication googleAuth =
-        await googleUser!.authentication;
+    final GoogleSignInAuthentication? googleAuth = await googleUser?.authentication;
     final credential = GoogleAuthProvider.credential(
-      accessToken: googleAuth.accessToken,
-      idToken: googleAuth.idToken,
+      accessToken: googleAuth?.accessToken,
+      idToken: googleAuth?.idToken,
     );
+
     return await FirebaseAuth.instance.signInWithCredential(credential);
   }
 }
+
+
