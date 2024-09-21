@@ -14,6 +14,20 @@ class AuthService {
           return 'Usuário não encontrado';
         case 'wrong-password':
           return 'Senha incorreta';
+        case 'weak-password':
+          return 'A senha deve ter pelo menos 6 caracteres';
+        case 'channel-error':
+          return 'Informe um E-mail válido';
+        case 'invalid-email':
+          return 'Informe um E-mail válido';
+        case 'network-request-failed':
+          return 'Falha na rede';
+        case 'network-request-failed':
+          return 'Falha na rede';
+        case 'operation-not-allowed':
+          return 'Este email não está habilitado para esta operação';
+        case 'email-already-in-use':
+          return 'Este email já está em uso';
       }
       return e.code;
     }
@@ -53,6 +67,12 @@ class AuthService {
       switch (e.code) {
         case 'user-not-found':
           return 'Usuário não encontrado';
+        case 'invalid-email':
+          return 'E-mail inválido';
+        case 'network-request-failed':
+          return 'Falha na rede';
+        case 'channel-error':
+          return 'Informe um E-mail válido';
       }
       return e.code;
     }

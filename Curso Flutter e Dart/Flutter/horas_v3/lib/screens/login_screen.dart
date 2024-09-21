@@ -60,7 +60,9 @@ class LoginScreen extends StatelessWidget {
                       }, child: const Text('Entrar')),
                       const SizedBox(height: 16),
                       ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+
+                        },
                         child: const Text('Entrar com google'),
                       ),
                       const SizedBox(height: 16),
