@@ -80,10 +80,10 @@ class LoginScreen extends StatelessWidget {
                             showDialog(
                                 context: context,
                                 builder: (BuildContext context) {
-                                  return PasswordresetModal();
+                                  return const PasswordresetModal();
                                 });
                           },
-                          child: Text('Esqueceu sua senha?'),
+                          child: const Text('Esqueceu sua senha?'),
                       )
                     ],
                   ),
