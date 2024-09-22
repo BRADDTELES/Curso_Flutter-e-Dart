@@ -214,11 +214,12 @@ class _HomeScreenState extends State<HomeScreen> {
     refresh();
   }
 
-  Future<void> refresh()  async {
+  Future<void> refresh() async {
     // double total = 0;
     List<Hour> temp = [];
-    
-    QuerySnapshot<Map<String, dynamic>> snapshot = await firestore.collection(widget.user.uid).get();
+
+    QuerySnapshot<Map<String, dynamic>> snapshot =
+        await firestore.collection(widget.user.uid).get();
 
     for (var doc in snapshot.docs) {
       temp.add(Hour.fromMap(doc.data()));
