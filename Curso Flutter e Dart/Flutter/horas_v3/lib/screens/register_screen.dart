@@ -87,6 +87,12 @@ class RegisterScreen extends StatelessWidget {
                         },
                         child: const Text('Cadastrar'),
                       ),
+                      ElevatedButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                          },
+                          child: const Text('Voltar')
+                      ),
                       const SizedBox(height: 16),
                     ],
                   ),
