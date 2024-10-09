@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void initState() {
     super.initState();
 
-    setupFCM();
+    setuptFCM();
     refresh();
   }
 
@@ -238,42 +238,38 @@ class _HomeScreenState extends State<HomeScreen> {
       listHours = temp;
     });
   }
+}
+setuptFCM() async {
+  final fcmToken = await FirebaseMessaging.instance.getToken();
+  print(fcmToken);
 
-  void setupFCM() async {
-    final fcmToken = await FirebaseMessaging.instance.getToken();
-    print(fcmToken);
+  FirebaseMessaging messaging = FirebaseMessaging.instance;
 
-    FirebaseMessaging messaging = FirebaseMessaging.instance;
+  NotificationSettings settings = await messaging.requestPermission(
+    alert: true,
+    announcement: false,
+    badge: true,
+    carPlay: false,
+    criticalAlert: false,
+    provisional: false,
+    sound: true,
+  );
 
-    NotificationSettings settings = await messaging.requestPermission(
-        alert: true,
-        announcement: false,
-        badge: true,
-        carPlay: false,
-        criticalAlert: false,
-        provisional: false,
-        sound: true
-    );
-
-    if (settings.authorizationStatus == AuthorizationStatus.authorized){
-      print("User granted permission");
-    } else if (settings.authorizationStatus == AuthorizationStatus.provisional){
-      print("User granted provisional permission");
-    } else {
-      print("User declined or has not accepted permission");
-    }
-
-    FirebaseMessaging.onMessage.listen((RemoteMessage message){
-      print("Got a message whilist in the foreground!");
-      print("Message data: ${message.data}");
-
-      if (message.notification != null){
-        print("Message also contained a notification: ${message.notification}");
-      }
-    });
-
-    FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message){
-      print("### A new onMessageOpenedApp event was published!");
-    });
+  if (settings.authorizationStatus == AuthorizationStatus.authorized) {
+    print('User granted permission');
+  } else if (settings.authorizationStatus == AuthorizationStatus.provisional) {
+    print('User granted provisional permission');
+  } else {
+    print('User declined or has not accepted permission');
   }
+
+  FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+    print('Got a message whilst in the foreground!');
+    print('### já funciona Message data: ${message.data}');
+
+    if (message.notification != null) {
+      print('Message also contained a notification: ${message.notification}');
+    }
+  });
+
 }

@@ -12,17 +12,17 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  
+
   FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
 
   runApp(MyApp());
 }
 
-@pragma("vm:entry-point")
+@pragma('vm:entry-point')
 Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
   await Firebase.initializeApp();
 
-  print("### Handling a background message ${message.messageId}");
+  print('### Handling a background message ${message.messageId}');
 }
 
 class MyApp extends StatelessWidget {
